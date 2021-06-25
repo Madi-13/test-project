@@ -24,7 +24,7 @@ def links_status_check(start_page, pages, requests):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("python3 test.py start_https://url_example.exm path_to_file")
+        print("python3 test.py https://url_example.exm path_to_file")
         exit(1)
     start_page = sys.argv[1]
 
