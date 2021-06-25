@@ -28,7 +28,7 @@ if __name__ == "__main__":
         exit(1)
     start_page = sys.argv[1]
 
-    NUMBER_OF_PROCESS = 10;
+    NUMBER_OF_PROCESS = 10
 
     try:
         file = open(sys.argv[2], 'r')
